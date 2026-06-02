@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jake Wiltse | Portfolio</title>
+    <!-- Update this Netlify domain if the deployed URL changes. -->
+    <link rel="canonical" href="https://YOUR-NETLIFY-SITE.netlify.app/">
+    <meta
+      name="description"
+      content="A portfolio of practical applications showcasing clean design, thoughtful implementation, and real functionality."
+    >
+    <meta name="theme-color" content="#f5f1eb">
+    <meta property="og:title" content="Jake Wiltse | Portfolio">
+    <meta
+      property="og:description"
+      content="A portfolio of practical applications showcasing clean design, thoughtful implementation, and real functionality."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://YOUR-NETLIFY-SITE.netlify.app/">
+    <meta
+      property="og:image"
+      content="https://YOUR-NETLIFY-SITE.netlify.app/assets/social-preview.png"
+    >
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jake Wiltse | Portfolio">
+    <meta
+      name="twitter:description"
+      content="A portfolio of practical applications showcasing clean design, thoughtful implementation, and real functionality."
+    >
+    <meta
+      name="twitter:image"
+      content="https://YOUR-NETLIFY-SITE.netlify.app/assets/social-preview.png"
+    >
+    <!-- Replace assets/favicon/favicon.svg with the final favicon asset if needed. -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="site-shell">
+      <main>
+        <section class="hero" id="top">
+          <div class="hero-copy">
+            <p class="eyebrow">Portfolio Hub</p>
+            <h1>Jake Wiltse</h1>
+            <p class="hero-title">Web & Application Developer</p>
+            <p class="hero-text">
+              A portfolio of practical applications showcasing clean design, thoughtful implementation, and real functionality.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">View Projects</a>
+            </div>
+
+            <section class="about" id="about">
+              <div class="section-heading">
+                <p class="eyebrow">About</p>
+              </div>
+              <p class="about-copy">
+                This portfolio highlights small applications built to demonstrate how I design and develop usable software.
+    
+                Each project focuses on turning a simple idea into a working tool — with clear interfaces, thoughtful interactions, and reliable functionality.
+    
+                My approach prioritizes clarity, usability, and clean implementation so the final product feels polished and easy to use.
+              </p>
+            </section>
+          </div>
+
+          <aside class="hero-panel" aria-label="Project index">
+            <p class="panel-label">Project Index</p>
+            <ul class="highlight-list">
+              <li>
+                <a class="highlight-link" href="#reelfinder">
+                  <strong>ReelFinder</strong>
+                  <span>A movie discovery app for searching, browsing, and saving films.</span>
+                </a>
+              </li>
+              <li>
+                <a class="highlight-link" href="#tasknest">
+                  <strong>TaskNest</strong>
+                  <span>A task management app for organizing work, recurring tasks, and daily to-dos.</span>
+                </a>
+              </li>
+              <li>
+                <a class="highlight-link" href="#focusflow">
+                  <strong>FocusFlow</strong>
+                  <span>A minimalist focus timer built for simple work sessions and distraction-free use.</span>
+                </a>
+              </li>
+            </ul>
+            <p class="panel-note">
+              Select a project to jump directly to the full case section below.
+            </p>
+          </aside>
+        </section>
+
+        <section class="projects" id="projects" aria-labelledby="projects-title">
+          <div class="section-heading">
+            <p class="eyebrow" id="projects-title">Selected Projects</p>
+          </div>
+          <p class="projects-copy">
+            A selection of small applications built to demonstrate how ideas can be turned into clean, usable tools.
+
+            Each project highlights a different type of functionality, from working with external data to building interactive tools and productivity utilities.
+          </p>
+
+          <div class="project-stack">
+            <article class="project-card" id="reelfinder" aria-labelledby="reelfinder-title">
+              <div class="project-media">
+                <div class="project-shot">
+                  <img
+                    src="assets/screenshots/ReelFinder-SS.png"
+                    alt="Screenshot of the ReelFinder movie discovery app"
+                    width="1222"
+                    height="873"
+                    loading="lazy"
+                    decoding="async"
+                  >
+                </div>
+              </div>
+              <div class="project-content">
+                <p class="project-index">01</p>
+                <h3 id="reelfinder-title">ReelFinder</h3>
+                <p class="project-description">
+                  A movie discovery application designed to help users quickly find, explore, and save films they’re interested in watching.
+                </p>
+                <ul class="feature-list">
+                  <li>Search and discover movies by title, genre, or keyword</li>
+                  <li>View detailed information for each film</li>
+                  <li>Save favorites for quick access later</li>
+                  <li>Clean layout optimized for desktop and mobile</li>
+                </ul>
+                <ul class="tag-list" aria-label="ReelFinder tech stack">
+                  <li>Next.js</li>
+                  <li>TypeScript</li>
+                  <li>TMDB API</li>
+                  <li>Vercel</li>
+                </ul>
+                <div class="project-actions">
+                  <a
+                    class="button button-primary"
+                    href="https://reel-finder-xi.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" id="tasknest" aria-labelledby="tasknest-title">
+              <div class="project-media">
+                <div class="project-shot">
+                  <img
+                    src="assets/screenshots/TaskNest-SS.png"
+                    alt="Screenshot of the TaskNest task management app"
+                    width="1379"
+                    height="985"
+                    loading="lazy"
+                    decoding="async"
+                  >
+                </div>
+              </div>
+              <div class="project-content">
+                <p class="project-index">02</p>
+                <h3 id="tasknest-title">TaskNest</h3>
+                <p class="project-description">
+                  A lightweight task management application designed to help organize tasks, track recurring work, and keep everything in one simple interface.
+                </p>
+                <ul class="feature-list">
+                  <li>Create and organize tasks in a clean list view</li>
+                  <li>Support for recurring tasks and reminders</li>
+                  <li>Filter tasks by status or priority</li>
+                  <li>Automatically saves progress between sessions</li>
+                  <li>Clean interface designed for desktop and mobile</li>
+                </ul>
+                <ul class="tag-list" aria-label="TaskNest tech stack">
+                  <li>Vite</li>
+                  <li>JavaScript</li>
+                  <li>localStorage</li>
+                  <li>Netlify</li>
+                </ul>
+                <div class="project-actions">
+                  <a
+                    class="button button-primary"
+                    href="https://tasknest05.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" id="focusflow" aria-labelledby="focusflow-title">
+              <div class="project-media">
+                <div class="project-shot">
+                  <img
+                    src="assets/screenshots/FocusFlow-SS.png"
+                    alt="Screenshot of the FocusFlow Pomodoro timer app"
+                    width="1383"
+                    height="988"
+                    loading="lazy"
+                    decoding="async"
+                  >
+                </div>
+              </div>
+              <div class="project-content">
+                <p class="project-index">03</p>
+                <h3 id="focusflow-title">FocusFlow</h3>
+                <p class="project-description">
+                  A minimalist focus timer designed to help users stay on task using simple timed work sessions and a clean, distraction-free interface.
+                </p>
+                <ul class="feature-list">
+                  <li>Built-in focus and break timer presets</li>
+                  <li>Simple controls for starting, pausing, and resetting sessions</li>
+                  <li>Visual timer feedback for clear progress tracking</li>
+                  <li>Clean layout that works smoothly across devices</li>
+                </ul>
+                <ul class="tag-list" aria-label="FocusFlow tech stack">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Netlify</li>
+                </ul>
+                <div class="project-actions">
+                  <a
+                    class="button button-primary"
+                    href="https://focusflow05.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; Jake Wiltse</p>
+      </footer>
+    </div>
+  </body>
+</html>
